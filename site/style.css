@@ -1,8 +1,9 @@
-section h3{
+.row div{
 	color: Black;
-	background: Green;
 	font-size: 125%;
+	background-color:teal;
 	opacity: 1.0;
-	font-style:Times New Roman;
+	border:1px solid Black;
 	text-align: center;
+	box-sizing: border-box;
 }
