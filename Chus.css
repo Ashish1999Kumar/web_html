@@ -43,12 +43,45 @@ p img,p span{
 	vertical-align: middle;
 }
 
-@media (max-width: 768px){
-	.navbar-toggler-icon{
-		border:1px solid black;
-	}
-
+#navbarNav{
+	text-align: center;
+	color:#61122f;
 }
-i{
-	margin-left: 18px;
+#phone{
+		text-align: right;
+}
+.nav-item:hover{
+	background-color: white;
+}
+.fas{
+	color:61122f;
+	background: 61122f !important;
+}
+@media (max-width: 991px){
+	.navbar-header{
+		margin-bottom: -25px;
+		margin-left: -10px;
+		margin-top: -10px;
+	}
+	#logo-img{
+	background: url("imagesresize.png") no-repeat;
+	width:100px;
+	height:100px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-radius: 50%;
+}
+	i{
+		padding-right: 10px;
+	}
+}
+@media(min-width: 992px){
+	.fas{
+		clear:both;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+	color:#61122f;
 }
