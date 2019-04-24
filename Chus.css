@@ -43,3 +43,12 @@ p img,p span{
 	vertical-align: middle;
 }
 
+@media (max-width: 768px){
+	.navbar-toggler-icon{
+		border:1px solid black;
+	}
+
+}
+i{
+	margin-left: 18px;
+}
