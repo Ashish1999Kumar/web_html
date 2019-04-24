@@ -17,4 +17,29 @@ font-family: 'Oxygen', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-right: 0px;
+	border-radius: 50%;
 }
+.navbar-brand{
+	margin-left: 10px;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand a h1{
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	color:#557c3e;
+	font-family: 'Lora', serif;
+	line-height: 0.75;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+p img,p span{
+	border-radius: 50%;
+	font-size: 0.7em;
+	vertical-align: middle;
+}
+
