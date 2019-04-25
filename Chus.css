@@ -10,7 +10,7 @@ font-family: 'Oxygen', sans-serif;
 	border:0;
 }
 #logo-img{
-	background: url("images.png") no-repeat;
+	background: url("Restaurant_web/images.png") no-repeat;
 	width:150px;
 	height:150px;
 	margin-left: 0px;
@@ -70,7 +70,7 @@ p img,p span{
 	font-size: 3vw;
 }
 	#logo-img{
-	background: url("imagesresize.png") no-repeat;
+	background: url("Restaurant_web/imagesresize.png") no-repeat;
 	width:80px;
 	height:80px;
 	margin-left: 0px;
@@ -113,11 +113,11 @@ p img,p span{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile{
-	background:url(menu-tile.jpg) no-repeat;
+	background:url(Restaurant_web/menu-tile.jpg) no-repeat;
 	background-position: center;
 }
 #special-tile{
-	background:url(special.jpg) no-repeat;
+	background:url(Restaurant_web/special.jpg) no-repeat;
 	background-position: center;
 }
 #menu-tile span,#special-tile span,#map-tile span{
@@ -161,7 +161,7 @@ p img,p span{
 }
 @media(min-width: 1200px){
 	.jumbotron{
-		background:url(newrest3.jpeg) no-repeat;
+		background:url(Restaurant_web/newrest3.jpeg) no-repeat;
 		height:680px;
 		box-shadow: 1px 1px 1px 1px #3F0C1F;
 		border:2px solid #3F0C1F;
@@ -171,7 +171,7 @@ p img,p span{
 }
 @media(min-width: 991px) and (max-width:1199px){
 	.jumbotron{
-		background:url(medrest3.jpeg) no-repeat;
+		background:url(Restaurant_web/medrest3.jpeg) no-repeat;
 		height:575px;
 		box-shadow: 1px 1px 1px 1px #3F0C1F;
 		border:2px solid #3F0C1F;
@@ -181,7 +181,7 @@ p img,p span{
 }
 @media(min-width: 768px) and (max-width:990px){
 	.jumbotron{
-		background:url(smallrest3.jpeg) no-repeat;
+		background:url(Restaurant_web/smallrest3.jpeg) no-repeat;
 		height:500px;
 		box-shadow: 1px 1px 1px 1px #3F0C1F;
 		border:2px solid #3F0C1F;
@@ -191,7 +191,7 @@ p img,p span{
 }
 @media(min-width: 576px) and (max-width:767px){
 	.jumbotron{
-		background:url(exsmallrest3.jpeg) no-repeat;
+		background:url(Restaurant_web/exsmallrest3.jpeg) no-repeat;
 		height:380px;
 		box-shadow: 1px 1px 1px 1px #3F0C1F;
 		border:2px solid #3F0C1F;
